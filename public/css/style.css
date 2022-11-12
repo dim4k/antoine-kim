@@ -28,7 +28,7 @@ body
 }
 .card:hover
 {
-    height: 550px;
+    height: 600px;
     box-shadow: rgba(158, 158, 158, 0.4) 4px 4px, rgba(255, 255, 255, 0.3) 8px 8px, rgba(94, 94, 94, 0.2) 12px 12px, rgba(255, 255, 255, 0.1) 16px 16px, rgba(0, 0, 0, 0.05) 20px 20px;
 }
 .imgBx
@@ -117,14 +117,15 @@ body
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(25px);
+    transform: translateY(0px);
 }
 .card .content .details h2
 {
-    font-size:1.8em;
+    font-size:1.9em;
     font-weight: 600;
     color: #555;
     line-height: 1.6em;
+    border: 0;
 }
 .card .content .details h2 span
 {
@@ -136,7 +137,7 @@ body
 {
     opacity: 0;
     transform: translateX(150px);
-    transition: 1s;
+    transition: 0.5s;
 }
 .card:hover .content .details h2 span a
 {
@@ -155,7 +156,7 @@ body
     opacity: 0;
     flex: 1;
     transform: translateY(150px);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .card:hover .content .details .socials a
