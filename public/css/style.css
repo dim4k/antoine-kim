@@ -130,8 +130,8 @@ body
 .card .content .details h1
 {
     font-size:3.4em;
-    font-weight: 500;
-    color: #666;
+    font-weight: 700;
+    color: #888;
     transition: 0.5s;
     transform: translateY(0);
 }
@@ -152,7 +152,7 @@ body
 }
 .card .content .details h2 span
 {
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(156, 156, 156);
     transition: 0.5s;
 }
