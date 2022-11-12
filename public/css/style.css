@@ -24,7 +24,7 @@ body
     background: #fff;
     border-radius: 20px;
     box-shadow: rgba(158, 158, 158, 0.4) 6px 6px, rgba(255, 255, 255, 0.3) 12px 12px, rgba(94, 94, 94, 0.2) 18px 18px, rgba(255, 255, 255, 0.1) 24px 24px, rgba(0, 0, 0, 0.05) 30px 30px;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .card:hover
 {
@@ -116,7 +116,7 @@ body
     padding: 40px;
     text-align: center;
     width: 100%;
-    transition: 0.5s;
+    transition: 0.6s;
     transform: translateY(20px);
 }
 .card .content .details h3
@@ -131,7 +131,7 @@ body
     font-size:3.4em;
     font-weight: 700;
     color: #888;
-    transition: 0.5s;
+    transition: 0.6s;
     transform: translateY(0);
 }
 .card:hover .content .details h1
@@ -159,7 +159,7 @@ body
 {
     opacity: 0;
     font-weight: 300;
-    transition: 0.5s;
+    transition: 0.7s;
     transform: translateY(-50px);
 }
 .card .content .details h3 span
@@ -172,7 +172,7 @@ body
 {
     opacity: 0.7;
     transform: translateX(0);
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .card .content .details .socials
 {
@@ -185,7 +185,7 @@ body
     opacity: 0;
     flex: 1;
     transform: translateY(150px);
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 .card .content .details .socials a:hover
