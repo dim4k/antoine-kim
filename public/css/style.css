@@ -23,13 +23,13 @@ body
     height: 350px;
     background: #fff;
     border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    box-shadow: rgba(158, 158, 158, 0.4) 6px 6px, rgba(255, 255, 255, 0.3) 12px 12px, rgba(94, 94, 94, 0.2) 18px 18px, rgba(255, 255, 255, 0.1) 24px 24px, rgba(0, 0, 0, 0.05) 30px 30px;
     transition: 0.5s;
 }
 .card:hover
 {
     height: 550px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.3);
+    box-shadow: rgba(158, 158, 158, 0.4) 4px 4px, rgba(255, 255, 255, 0.3) 8px 8px, rgba(94, 94, 94, 0.2) 12px 12px, rgba(255, 255, 255, 0.1) 16px 16px, rgba(0, 0, 0, 0.05) 20px 20px;
 }
 .imgBx
 {
@@ -41,7 +41,8 @@ body
     height: 250px;
     background: #fff;
     border-radius: 20px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.5); 
     overflow: hidden;
     transition: 0.5s;
 }
@@ -49,16 +50,48 @@ body
 {
     width: 350px;
     height: 350px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.11);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
 }
 .imgBx img
 {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+}
+/* Shine */
+.card .imgBx figure {
+	position: relative;
+}
+.card .imgBx figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.08) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.08) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.card:hover .imgBx figure::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
 }
 .card .content
 {
