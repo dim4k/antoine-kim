@@ -132,6 +132,18 @@ body
     font-weight: 500;
     opacity: 0.6;
 }
+.card .content .details h2 span a
+{
+    opacity: 0;
+    transform: translateX(150px);
+    transition: 1s;
+}
+.card:hover .content .details h2 span a
+{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s;
+}
 .card .content .details .socials
 {
     display: flex;
@@ -140,6 +152,15 @@ body
 
 .card .content .details .socials a
 {
+    opacity: 0;
+    flex: 1;
+    transform: translateY(150px);
+    transition: 1s;
+}
+
+.card:hover .content .details .socials a
+{
     opacity: 0.5;
     flex: 1;
+    transform: translateY(0);
 }
