@@ -42,7 +42,7 @@ body
     background: #fff;
     border-radius: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.5); 
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3); 
     overflow: hidden;
     transition: 0.5s;
     z-index: 99;
@@ -51,7 +51,7 @@ body
 {
     width: 350px;
     height: 350px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.8);
 }
 .imgBx img
 {
@@ -110,7 +110,7 @@ body
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(180px);
+    transform: translateY(190px);
 }
 .card:hover .content .details
 {
@@ -118,7 +118,7 @@ body
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(0px);
+    transform: translateY(20px);
 }
 .card .content .details h3
 {
@@ -171,7 +171,7 @@ body
 }
 .card:hover .content .details h3 span
 {
-    opacity: 0.6;
+    opacity: 0.7;
     transform: translateX(0);
     transition: 0.5s;
 }
@@ -191,7 +191,7 @@ body
 
 .card:hover .content .details .socials a
 {
-    opacity: 0.5;
+    opacity: 0.6;
     flex: 1;
     transform: translateY(0);
 }
