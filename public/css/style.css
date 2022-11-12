@@ -125,7 +125,7 @@ body
     font-size:1.4em;
     font-weight: 500;
     color: #555;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 .card .content .details h1
 {
@@ -146,7 +146,7 @@ body
 {
     font-size:1.7em;
     font-weight: 800;
-    color: #777;
+    color: #555;
     line-height: 1.6em;
     margin-top:-25px;
 }
