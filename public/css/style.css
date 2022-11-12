@@ -29,6 +29,7 @@ body
 .card:hover
 {
     height: 550px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.3);
 }
 .imgBx
 {
@@ -48,6 +49,7 @@ body
 {
     width: 350px;
     height: 350px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.11);
 }
 .imgBx img
 {
@@ -74,7 +76,7 @@ body
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(100px);
+    transform: translateY(150px);
 }
 .card:hover .content .details
 {
@@ -82,20 +84,20 @@ body
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(10px);
+    transform: translateY(25px);
 }
 .card .content .details h2
 {
-    font-size:1.7em;
+    font-size:1.8em;
     font-weight: 600;
     color: #555;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 .card .content .details h2 span
 {
     font-size: 0.75em;
     font-weight: 500;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .card .content .details .socials
 {
